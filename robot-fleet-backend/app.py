@@ -5,7 +5,6 @@ from flask_cors import CORS
 from flask_socketio import SocketIO
 
 app = Flask(__name__)
-
 # Enable CORS for WebSocket connections (allow connections from localhost:3000)
 CORS(app, origins=["http://localhost:3000"], supports_credentials=True)
 
